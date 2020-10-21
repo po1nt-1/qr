@@ -2,8 +2,8 @@ import inspect
 import os
 import sys
 
-import pyqrcode
 import matplotlib
+import pyqrcode
 from matplotlib import pyplot
 
 
@@ -48,4 +48,3 @@ if __name__ == "__main__":
         sys.exit("\nNo output")
         if os.path.exists(PATH):
             os.remove(PATH)
-
